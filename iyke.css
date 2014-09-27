@@ -1,0 +1,100 @@
+body {
+	background-image: url('blackwall.jpg');
+	background-repeat: repeat-y;
+}
+.nav li a{
+	color: #ffffff;
+	padding: 14px 25px;
+	font-size:17px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.nav li {
+	display: inline;
+	position: relative;
+}
+.container {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#image {
+	width:100%;
+	height:100%
+}
+.jumbotron{
+	background-color:transparent !important;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+.nav h1{
+	color: #ffffff;
+}
+.thumbnail{
+	background-color: transparent !important;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+	margin: 0px;
+	border: 0px;
+
+}
+/*img{
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+
+}*/
+#pic{
+	margin-right: auto;
+	margin-left: 75px;
+}
+h3{
+	color: white;
+}
+#iceberg {
+	background-color: rgba(10,5,3,0.8);
+}
+a {
+	text-decoration:none;
+}
+.nav ul{
+	/*float: left;*/
+	position: relative;
+}
+footer {
+	background-color: yellow;
+	margin-bottom: -20px;
+}
+p {
+	font-family: verdana;
+	color: brown;
+}
+.comeout{
+	position:absolute;
+	top:0; left:0;
+	z-index:6000;
+}
+
+@media (max-width: 767px) {
+	.carousel{
+		display: none;
+	}
+	.pic1{
+		max-width: 150px;
+		text-align: center;
+		display: block;
+	}
+	.jumbotron{
+		margin-right: -20px;
+		margin-left: -40px;
+	}
+	.thumbnail{
+		margin-right: -10px;
+		margin-left: -59px;
+	}
+	.nav{
+		text-align: center;
+	}
+	
+}
