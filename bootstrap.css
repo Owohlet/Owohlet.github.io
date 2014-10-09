@@ -897,7 +897,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 50px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -929,6 +929,8 @@ figure {
 }
 img {
   vertical-align: middle;
+  /*width: inherit;
+  height: inherit;*/
 }
 .img-responsive,
 .thumbnail > img,
@@ -964,7 +966,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid brown;
 }
 .sr-only {
   position: absolute;
@@ -1038,6 +1040,7 @@ h3,
 .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
+  
 }
 h1 small,
 .h1 small,
@@ -1396,6 +1399,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 30px;
 }
 @media (min-width: 768px) {
   .container {
@@ -3770,7 +3774,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4204,7 +4208,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #777;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #777;
+  color: #CECEBF;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4547,7 +4551,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: inherit;
   background-color: #eee;
 }

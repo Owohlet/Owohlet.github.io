@@ -1,6 +1,7 @@
 body {
 	background-image: url('blackwall.jpg');
 	background-repeat: repeat-y;
+	overflow:scroll; 
 }
 .nav li a{
 	color: #ffffff;
@@ -15,7 +16,7 @@ body {
 	position: relative;
 }
 .container {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-left: 50px;
 }
 #image {
@@ -24,8 +25,8 @@ body {
 }
 .jumbotron{
 	background-color:transparent !important;
-	padding-top: 2px;
-	padding-bottom: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 .nav h1{
 	color: #ffffff;
@@ -45,18 +46,24 @@ body {
 	padding-bottom: 70px;
 
 }*/
+.social{
+	margin: 0px 20px 0px 20px;
+	color:#ffffff;
+}
 #pic{
 	margin-right: auto;
 	margin-left: 75px;
 }
 h3{
-	color: white;
+	color: brown;
 }
 #iceberg {
-	background-color: rgba(10,5,3,0.8);
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
 }
 a {
 	text-decoration:none;
+	color: #00008C;
 }
 .nav ul{
 	/*float: left;*/
@@ -69,6 +76,7 @@ footer {
 p {
 	font-family: verdana;
 	color: brown;
+	font-size: 16px;
 }
 .comeout{
 	position:absolute;
@@ -97,4 +105,53 @@ p {
 		text-align: center;
 	}
 	
+}
+#tip{
+	color:black;
+}
+.footer-col{
+	text-align: center;
+}
+
+h4{
+	color: burlywood;
+	font-family: cursive;
+	font-size: xx-large;
+}
+.navbar-brand{
+	font-family: cursive;
+}
+.softback{
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+}
+#abt-header{
+	font-size: 50px;
+	text-align: center;
+}
+hr{
+	background-color: brown;
+}
+img.resize{
+	width: 30px;
+	width: inherit;
+	height: inherit;
+}
+#slider1 .overview li {
+float: left;
+margin: 0 20px 0 0;
+padding: 1px;
+height: 121px;
+border: 0px solid #dcdcdc;
+width: 90px;
+}
+.actimage{
+	width: 300px;
+	height: 150px;
+}
+.activityparagraph{
+	color: #00008C;
+}
+.white{
+	color: #ffffff;
 }
